@@ -1,5 +1,7 @@
 import React from 'react'
 import BlogItem from './components/BlogItem'
+import BlogsRow from './BlogsRow'
+import CarRowlist from './components/Carlist'
 
 
 
@@ -71,10 +73,8 @@ function App(props) {
 
 
     return(
-        <div className="row">
-            <h1>Props</h1>
-            <h1>Good {timeofDay} {props.name} {props.isOn}</h1>
-            <h1>{pokemonPTags}</h1>
+        <div className="container">
+            <CarRowlist /> 
         </div>
     )
 }

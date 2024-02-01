@@ -1,23 +1,6 @@
 
 
-const outlookContactAPI = 
-[
-    {
-        fName:"Margarito",
-        lName:"Valencia",
-        email:"margarito.valencia@mscoding.org"
-    },
-    {
-        fName:"Andrew",
-        lName:"Stamps",
-        email:"andrew.stamps@mscoding.org"
-    },
-    {
-        fName:"Jonathan",
-        lName:"Pruitt",
-        email:"jPruit12312@yahoo.com"
-    }
-]
+
 
 function ContactItem(contactData) {
 
